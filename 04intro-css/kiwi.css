@@ -1,9 +1,107 @@
 body {
-    .abel-regular
+    
         font-family: "Abel", sans-serif;
-        font-size: 16px;
         font-weight: 400;
         font-style: normal;
-        margin: 0;
+      }
 
+      /*header stuff here*/
+header h1 {
+    background-color: #203829;
+    padding: 1rem 2%;
+
+}
+header h1 {
+    margin: 0;
+    color: #ffffff
+}
+header p {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.85px;
+}
+/*Nav stuff here*/
+nav {
+    background-color:#8cbeba;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw
+    margin 0;
+    display: flex;
+}
+nav ul li a {
+    font: 1.1rem;
+    text-decoration: none;
+    color: #6d6d6d;
+    font-weight: 700;
+    display: block;
+    padding: .85rem 2rem;
+}
+nav li.active a {
+    background-color:#6d6d6d;
+    color:#203829;
+}
+nav a:hover {
+    color: #ffffff;
+}
+/*stuff for main*/
+main {
+    padding: 1rem 2vw
+}
+main h1 {
+    color: #ffffff;
+    background-color: #203829;
+    padding: .85rem 2rem
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .5rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef
+}
+main dl dt {
+    color: rgb(128, 161, 128);
+    font-weight: 700;
+}
+main dl dd {
+    color: #24465c;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: dot;
+
+}
+main ul li {
+    line-height: 130%;
+    margin-bottom: .7rem;
+}
+main address {
+    font-style: normal;
+    background-color: #9cb2c2;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #203829;
+    border-radius: .5rem
+}
+main a {
+    color:#ffffff;
+}
+main a:hover {
+    color:#203829 ;
+
+}
+/*footer stuff here*/
+footer {
+    background-color:#8cbeba;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding : 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color:#243d4e
 }
